@@ -1,0 +1,15 @@
+.app-wrapper {
+    margin: 0 auto;
+    width: 1200px;
+    display: grid;
+    grid-template-areas: /*Прописываем где какие области грида будут находиться*/
+    'h h'
+    'n c';
+    grid-template-rows: 60px 2fr; /*Задаём количество и размер грид-рядов*/
+    grid-template-columns: 2fr 10fr; /*Задаём количество и размер грид-колонок.*/
+    grid-gap: 5px
+}
+
+.app-wrapper-content {
+    background-color: darkcyan;
+}
