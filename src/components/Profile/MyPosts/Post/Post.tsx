@@ -16,5 +16,5 @@ export const Post: FC<PostPropsType> = ({message, likesCount}) => {
         <span>{likesCount}</span>
       </div>
     </div>
-  );
-};
+  )
+}
